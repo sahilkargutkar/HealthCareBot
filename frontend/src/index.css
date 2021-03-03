@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+a{
+    text-decoration: none;
+
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    min-height: 8vh;
+    position: absolute;
+    width: 100%;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    color: rgba(255,255,255,0.85);
+    font-size: 32px;
+}
+.logo h4{
+    margin-left: 7px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+
+.navlinks{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 50%;
+    font-size: 24px;
+}
+.link{
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.link a{
+    color:rgba(255,255,255,0.85)
+}
+
+.link a:hover{
+    color:rgba(255,255,255,1)
+}
+
+
+.main{
+    background:radial-gradient(at center center,#2d7e9270 0%,#1c40617c 100%), url("./images/health-care.jpg");
+    height: 100vh;
+    width:100%;
+    background-size:center;
+    background-position:center ;
+}
+
+.content{
+    max-width: 800px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+
+}
+.content h1{
+    font-size: 64px;
+    color: azure;
+    font-weight: normal;
+    letter-spacing: 3px;
+
+}
+.content h2{
+    font-size: 28;
+    color: azure;
+    font-weight: lighter;
+    letter-spacing: 4px;
+}
+.content p{
+    color: azure;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.content_btn_services{
+    border: azure solid 1px;
+    background-color:transparent ;
+    color:azure;
+    padding: 10px 50px;
+    margin:0 10px;
+}
+
+.content_btn_about{
+    border: azure solid 1px;
+    background-color:azure ;
+    color: rgb(26,108,122);
+    padding: 10px 50px;
+    margin: 0 10px;
+}
+
+df-messenger {
+    --df-messenger-bot-message: #1976d2;
+    --df-messenger-button-titlebar-color: #1976d2;
+    --df-messenger-chat-background-color: #fafafa;
+    --df-messenger-font-color: white;
+    --df-messenger-send-icon: #1976d2;
+    --df-messenger-user-message: #479b3d;
+   }
