@@ -1,7 +1,7 @@
 # HealthCareBot
 A Health care bot which answers all your queries. 
 
-Deployed on Heroku [API Marketplace](https://healthcare-dialogflow.herokuapp.com/)
+Deployed on Heroku [Healtcare-Bot-jasmine](https://healthcare-dialogflow.herokuapp.com/)
 
 ## Ask the bot about your health
     let him find any diseases linked to your symptoms
