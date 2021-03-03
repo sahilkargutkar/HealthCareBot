@@ -13,6 +13,12 @@ Deployed on Heroku [Healtcare-Bot-jasmine](https://healthcare-dialogflow.herokua
     
 ## Mobile Responsive :iphone:
     Can be used on Android as well as Iphone.
-    
+
+## Queries to ask
+    which doctors are available today
+    I need a checkup
+    Give a phone number and Name to bot to book your appointment
+
 ## Programming Languages and Frameworks Used :computer:
     JavaScript,React.JS,Node.JS,Express,Actions-on-google,Dialogflow-fulfillment,ngrok
+
